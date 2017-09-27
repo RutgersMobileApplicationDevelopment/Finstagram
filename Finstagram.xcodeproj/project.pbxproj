@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8CA95AA1F7B295E002D5E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA95A91F7B295E002D5E8C /* AppDelegate.swift */; };
+		A8CA95AC1F7B295E002D5E8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA95AB1F7B295E002D5E8C /* ViewController.swift */; };
+		A8CA95AF1F7B295E002D5E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CA95AD1F7B295E002D5E8C /* Main.storyboard */; };
+		A8CA95B21F7B295E002D5E8C /* Finstagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8CA95B01F7B295E002D5E8C /* Finstagram.xcdatamodeld */; };
+		A8CA95B41F7B295E002D5E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CA95B31F7B295E002D5E8C /* Assets.xcassets */; };
+		A8CA95B71F7B295E002D5E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CA95B51F7B295E002D5E8C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8CA95A61F7B295E002D5E8C /* Finstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CA95A91F7B295E002D5E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8CA95AB1F7B295E002D5E8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8CA95AE1F7B295E002D5E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8CA95B11F7B295E002D5E8C /* Finstagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Finstagram.xcdatamodel; sourceTree = "<group>"; };
+		A8CA95B31F7B295E002D5E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8CA95B61F7B295E002D5E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8CA95B81F7B295E002D5E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8CA95A31F7B295E002D5E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8CA959D1F7B295E002D5E8C = {
+			isa = PBXGroup;
+			children = (
+				A8CA95A81F7B295E002D5E8C /* Finstagram */,
+				A8CA95A71F7B295E002D5E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8CA95A71F7B295E002D5E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8CA95A61F7B295E002D5E8C /* Finstagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8CA95A81F7B295E002D5E8C /* Finstagram */ = {
+			isa = PBXGroup;
+			children = (
+				A8CA95A91F7B295E002D5E8C /* AppDelegate.swift */,
+				A8CA95AB1F7B295E002D5E8C /* ViewController.swift */,
+				A8CA95AD1F7B295E002D5E8C /* Main.storyboard */,
+				A8CA95B31F7B295E002D5E8C /* Assets.xcassets */,
+				A8CA95B51F7B295E002D5E8C /* LaunchScreen.storyboard */,
+				A8CA95B81F7B295E002D5E8C /* Info.plist */,
+				A8CA95B01F7B295E002D5E8C /* Finstagram.xcdatamodeld */,
+			);
+			path = Finstagram;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8CA95A51F7B295E002D5E8C /* Finstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CA95BB1F7B295E002D5E8C /* Build configuration list for PBXNativeTarget "Finstagram" */;
+			buildPhases = (
+				A8CA95A21F7B295E002D5E8C /* Sources */,
+				A8CA95A31F7B295E002D5E8C /* Frameworks */,
+				A8CA95A41F7B295E002D5E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finstagram;
+			productName = Finstagram;
+			productReference = A8CA95A61F7B295E002D5E8C /* Finstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8CA959E1F7B295E002D5E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = RUMAD;
+				TargetAttributes = {
+					A8CA95A51F7B295E002D5E8C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A8CA95A11F7B295E002D5E8C /* Build configuration list for PBXProject "Finstagram" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8CA959D1F7B295E002D5E8C;
+			productRefGroup = A8CA95A71F7B295E002D5E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8CA95A51F7B295E002D5E8C /* Finstagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8CA95A41F7B295E002D5E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CA95B71F7B295E002D5E8C /* LaunchScreen.storyboard in Resources */,
+				A8CA95B41F7B295E002D5E8C /* Assets.xcassets in Resources */,
+				A8CA95AF1F7B295E002D5E8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8CA95A21F7B295E002D5E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CA95B21F7B295E002D5E8C /* Finstagram.xcdatamodeld in Sources */,
+				A8CA95AC1F7B295E002D5E8C /* ViewController.swift in Sources */,
+				A8CA95AA1F7B295E002D5E8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8CA95AD1F7B295E002D5E8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8CA95AE1F7B295E002D5E8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8CA95B51F7B295E002D5E8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8CA95B61F7B295E002D5E8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8CA95B91F7B295E002D5E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8CA95BA1F7B295E002D5E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8CA95BC1F7B295E002D5E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Finstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RUMAD.Finstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8CA95BD1F7B295E002D5E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Finstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RUMAD.Finstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8CA95A11F7B295E002D5E8C /* Build configuration list for PBXProject "Finstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CA95B91F7B295E002D5E8C /* Debug */,
+				A8CA95BA1F7B295E002D5E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8CA95BB1F7B295E002D5E8C /* Build configuration list for PBXNativeTarget "Finstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CA95BC1F7B295E002D5E8C /* Debug */,
+				A8CA95BD1F7B295E002D5E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8CA95B01F7B295E002D5E8C /* Finstagram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8CA95B11F7B295E002D5E8C /* Finstagram.xcdatamodel */,
+			);
+			currentVersion = A8CA95B11F7B295E002D5E8C /* Finstagram.xcdatamodel */;
+			path = Finstagram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8CA959E1F7B295E002D5E8C /* Project object */;
+}
