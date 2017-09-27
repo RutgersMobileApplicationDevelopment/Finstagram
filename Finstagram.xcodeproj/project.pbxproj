@@ -13,6 +13,7 @@
 		A8CA95B21F7B295E002D5E8C /* Finstagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8CA95B01F7B295E002D5E8C /* Finstagram.xcdatamodeld */; };
 		A8CA95B41F7B295E002D5E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CA95B31F7B295E002D5E8C /* Assets.xcassets */; };
 		A8CA95B71F7B295E002D5E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CA95B51F7B295E002D5E8C /* LaunchScreen.storyboard */; };
+		A8CA95BF1F7B3362002D5E8C /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA95BE1F7B3362002D5E8C /* FeedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A8CA95B31F7B295E002D5E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8CA95B61F7B295E002D5E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8CA95B81F7B295E002D5E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CA95BE1F7B3362002D5E8C /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A8CA95A91F7B295E002D5E8C /* AppDelegate.swift */,
 				A8CA95AB1F7B295E002D5E8C /* ViewController.swift */,
+				A8CA95BE1F7B3362002D5E8C /* FeedTableViewController.swift */,
 				A8CA95AD1F7B295E002D5E8C /* Main.storyboard */,
 				A8CA95B31F7B295E002D5E8C /* Assets.xcassets */,
 				A8CA95B51F7B295E002D5E8C /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				A8CA95B21F7B295E002D5E8C /* Finstagram.xcdatamodeld in Sources */,
 				A8CA95AC1F7B295E002D5E8C /* ViewController.swift in Sources */,
 				A8CA95AA1F7B295E002D5E8C /* AppDelegate.swift in Sources */,
+				A8CA95BF1F7B3362002D5E8C /* FeedTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
