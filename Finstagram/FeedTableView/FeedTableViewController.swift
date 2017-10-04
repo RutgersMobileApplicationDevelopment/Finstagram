@@ -11,10 +11,14 @@ import UIKit
 class FeedTableViewController: UITableViewController {
 
     // MARK: - Table view data source
-    var fruits = ["Apple", "Orange", "Banana", "Pineapple", "Cantaloupe"]
+    var CEONames = ["Mark Zuckerberg", "Satya Nadella", "Sundar Pichai", "Tim Cook", "Elon Musk"]
+    var CEOImages = [#imageLiteral(resourceName: "Mark Zuckerberg"), #imageLiteral(resourceName: "Satya Nadella"), UIImage(named: "Sundar Pichai"), #imageLiteral(resourceName: "Tim Cook"), #imageLiteral(resourceName: "Elon Musk")]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title = "Feed"
+        tableView.rowHeight = 420
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -36,20 +40,21 @@ class FeedTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return fruits.count
+        return CEONames.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "fruitCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "feedCell", for: indexPath) as! FeedTableViewCell
 
-        cell.textLabel?.text = fruits[indexPath.row]
+        //cell.textLabel?.text = CEONames[indexPath.row]
+        //cell.imageView?.image = CEOImages[indexPath.row]
+        cell.setUpCell(userName: CEONames[indexPath.row], feedImage: CEOImages[indexPath.row]!)
         
         
         return cell
     }
     
-
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A836D7101F8466BF0058DDEB /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A836D70F1F8466BF0058DDEB /* FeedTableViewCell.swift */; };
 		A8CA95AA1F7B295E002D5E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA95A91F7B295E002D5E8C /* AppDelegate.swift */; };
 		A8CA95AC1F7B295E002D5E8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA95AB1F7B295E002D5E8C /* ViewController.swift */; };
 		A8CA95AF1F7B295E002D5E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CA95AD1F7B295E002D5E8C /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A836D70F1F8466BF0058DDEB /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		A8CA95A61F7B295E002D5E8C /* Finstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CA95A91F7B295E002D5E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8CA95AB1F7B295E002D5E8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A836D7111F8466D00058DDEB /* FeedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A8CA95BE1F7B3362002D5E8C /* FeedTableViewController.swift */,
+				A836D70F1F8466BF0058DDEB /* FeedTableViewCell.swift */,
+			);
+			path = FeedTableView;
+			sourceTree = "<group>";
+		};
 		A8CA959D1F7B295E002D5E8C = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +71,7 @@
 			children = (
 				A8CA95A91F7B295E002D5E8C /* AppDelegate.swift */,
 				A8CA95AB1F7B295E002D5E8C /* ViewController.swift */,
-				A8CA95BE1F7B3362002D5E8C /* FeedTableViewController.swift */,
+				A836D7111F8466D00058DDEB /* FeedTableView */,
 				A8CA95AD1F7B295E002D5E8C /* Main.storyboard */,
 				A8CA95B31F7B295E002D5E8C /* Assets.xcassets */,
 				A8CA95B51F7B295E002D5E8C /* LaunchScreen.storyboard */,
@@ -146,6 +157,7 @@
 				A8CA95AC1F7B295E002D5E8C /* ViewController.swift in Sources */,
 				A8CA95AA1F7B295E002D5E8C /* AppDelegate.swift in Sources */,
 				A8CA95BF1F7B3362002D5E8C /* FeedTableViewController.swift in Sources */,
+				A836D7101F8466BF0058DDEB /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
