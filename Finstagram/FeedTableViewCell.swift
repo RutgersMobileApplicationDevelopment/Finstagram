@@ -24,9 +24,10 @@ class FeedTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setUpCell(userName: String, feedImage: UIImage){
-        userNameLabel.text = userName
+    func setUpCell(feedUsername: String, feedImage: UIImage) {
+        userNameLabel.text = feedUsername
         feedImageView.image = feedImage
+        
     }
 
 }

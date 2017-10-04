@@ -10,15 +10,15 @@ import UIKit
 
 class FeedTableViewController: UITableViewController {
 
-    // MARK: - Table view data source
-    var CEONames = ["Mark Zuckerberg", "Satya Nadella", "Sundar Pichai", "Tim Cook", "Elon Musk"]
-    var CEOImages = [#imageLiteral(resourceName: "Mark Zuckerberg"), #imageLiteral(resourceName: "Satya Nadella"), UIImage(named: "Sundar Pichai"), #imageLiteral(resourceName: "Tim Cook"), #imageLiteral(resourceName: "Elon Musk")]
+    // MARK - Table view data source
+    var CEONames = ["Elon Musk", "Sundar Pichai", "Satya Nadella", "Mark Zuckerberg", "Tim Cook"]
+    var CEOImages = [#imageLiteral(resourceName: "Elon Musk"), #imageLiteral(resourceName: "Sundar Pichai"),#imageLiteral(resourceName: "Satya Nadella"), #imageLiteral(resourceName: "Mark Zuckerberg"),  #imageLiteral(resourceName: "Tim Cook")]
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Feed"
-        tableView.rowHeight = 420
+        self.navigationItem.title = "Feed"
+        tableView.rowHeight = 420.0
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -46,11 +46,8 @@ class FeedTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "feedCell", for: indexPath) as! FeedTableViewCell
-
-        //cell.textLabel?.text = CEONames[indexPath.row]
-        //cell.imageView?.image = CEOImages[indexPath.row]
-        cell.setUpCell(userName: CEONames[indexPath.row], feedImage: CEOImages[indexPath.row]!)
         
+        cell.setUpCell(feedUsername: CEONames[indexPath.row], feedImage: CEOImages[indexPath.row])
         
         return cell
     }
