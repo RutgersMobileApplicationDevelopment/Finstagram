@@ -12,8 +12,8 @@ class FeedTableViewController: UITableViewController {
 
     // MARK - Table view data source
     var CEONames = ["Elon Musk", "Sundar Pichai", "Satya Nadella", "Mark Zuckerberg", "Tim Cook"]
-    var CEOImages = [#imageLiteral(resourceName: "Elon Musk"), #imageLiteral(resourceName: "Sundar Pichai"),#imageLiteral(resourceName: "Satya Nadella"), #imageLiteral(resourceName: "Mark Zuckerberg"),  #imageLiteral(resourceName: "Tim Cook")]
-    
+    var CEOImages = [#imageLiteral(resourceName: "Elon Musk"), #imageLiteral(resourceName: "Sundar Pichai"),#imageLiteral(resourceName: "Satya Nadella"), #imageLiteral(resourceName: "Mark Zuckerberg"), #imageLiteral(resourceName: "Tim Cook")]
+    var CompanyImages = [#imageLiteral(resourceName: "tesla"), #imageLiteral(resourceName: "google"), #imageLiteral(resourceName: "microsoft"), #imageLiteral(resourceName: "facebook"), #imageLiteral(resourceName: "apple")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +47,7 @@ class FeedTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "feedCell", for: indexPath) as! FeedTableViewCell
         
-        cell.setUpCell(feedUsername: CEONames[indexPath.row], feedImage: CEOImages[indexPath.row])
+        cell.setUpCell(feedUsername: CEONames[indexPath.row], feedImage: CompanyImages[indexPath.row], userImage: CEOImages[indexPath.row])
         
         return cell
     }

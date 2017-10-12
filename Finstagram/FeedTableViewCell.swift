@@ -10,6 +10,7 @@ import UIKit
 
 class FeedTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var userImageView: UIButton!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var feedImageView: UIImageView!
     
@@ -24,10 +25,13 @@ class FeedTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setUpCell(feedUsername: String, feedImage: UIImage) {
+    func setUpCell(feedUsername: String, feedImage: UIImage, userImage: UIImage) {
+        userImageView.setImage(userImage, for: .normal)
         userNameLabel.text = feedUsername
         feedImageView.image = feedImage
         
+        userImageView.layer.cornerRadius = 25
+        userImageView.clipsToBounds = true
     }
 
 }
