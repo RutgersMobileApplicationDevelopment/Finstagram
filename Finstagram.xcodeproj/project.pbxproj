@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		983DA3F71F96DEBD00A0FFFA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DA3F61F96DEBD00A0FFFA /* TabBarViewController.swift */; };
+		983DA3F91F96DEDA00A0FFFA /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DA3F81F96DEDA00A0FFFA /* NavigationController.swift */; };
+		983DA3FB1F96E5A700A0FFFA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DA3FA1F96E5A700A0FFFA /* ProfileViewController.swift */; };
 		A836D70E1F8459C60058DDEB /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A836D70D1F8459C60058DDEB /* FeedTableViewCell.swift */; };
 		A8CA95AA1F7B295E002D5E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA95A91F7B295E002D5E8C /* AppDelegate.swift */; };
 		A8CA95AC1F7B295E002D5E8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA95AB1F7B295E002D5E8C /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		983DA3F61F96DEBD00A0FFFA /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		983DA3F81F96DEDA00A0FFFA /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		983DA3FA1F96E5A700A0FFFA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A836D70D1F8459C60058DDEB /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		A8CA95A61F7B295E002D5E8C /* Finstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CA95A91F7B295E002D5E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				A8CA95B51F7B295E002D5E8C /* LaunchScreen.storyboard */,
 				A8CA95B81F7B295E002D5E8C /* Info.plist */,
 				A8CA95B01F7B295E002D5E8C /* Finstagram.xcdatamodeld */,
+				983DA3F61F96DEBD00A0FFFA /* TabBarViewController.swift */,
+				983DA3F81F96DEDA00A0FFFA /* NavigationController.swift */,
+				983DA3FA1F96E5A700A0FFFA /* ProfileViewController.swift */,
 			);
 			path = Finstagram;
 			sourceTree = "<group>";
@@ -149,6 +158,9 @@
 				A8CA95AC1F7B295E002D5E8C /* ViewController.swift in Sources */,
 				A8CA95AA1F7B295E002D5E8C /* AppDelegate.swift in Sources */,
 				A8CA95BF1F7B3362002D5E8C /* FeedTableViewController.swift in Sources */,
+				983DA3F71F96DEBD00A0FFFA /* TabBarViewController.swift in Sources */,
+				983DA3F91F96DEDA00A0FFFA /* NavigationController.swift in Sources */,
+				983DA3FB1F96E5A700A0FFFA /* ProfileViewController.swift in Sources */,
 				A836D70E1F8459C60058DDEB /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

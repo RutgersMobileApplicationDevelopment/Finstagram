@@ -15,11 +15,14 @@ class FeedTableViewController: UITableViewController {
     var CEOImages = [#imageLiteral(resourceName: "Elon Musk"), #imageLiteral(resourceName: "Sundar Pichai"),#imageLiteral(resourceName: "Satya Nadella"), #imageLiteral(resourceName: "Mark Zuckerberg"), #imageLiteral(resourceName: "Tim Cook")]
     var CompanyImages = [#imageLiteral(resourceName: "tesla"), #imageLiteral(resourceName: "google"), #imageLiteral(resourceName: "microsoft"), #imageLiteral(resourceName: "facebook"), #imageLiteral(resourceName: "apple")]
     
+    var username : String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Feed"
+        self.navigationItem.title = username
         tableView.rowHeight = 420.0
 
+    
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

@@ -53,7 +53,6 @@
                                 </state>
                                 <connections>
                                     <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bzi-vE-CHe"/>
-                                    <segue destination="vV9-iL-RvJ" kind="show" id="lU3-DM-37k"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -64,16 +63,17 @@
                         <outlet property="appTitleLabel" destination="mh2-Y9-nBt" id="WGq-av-IL5"/>
                         <outlet property="passwordTextField" destination="mVn-zc-2up" id="Xcc-qW-4Jg"/>
                         <outlet property="userNameTextField" destination="KHh-2f-1S6" id="fpB-aK-HsH"/>
+                        <segue destination="vV9-iL-RvJ" kind="show" identifier="usernameSegue" id="nwH-lE-aT9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="141.59999999999999" y="133.5832083958021"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="oXj-v6-9We">
             <objects>
-                <tabBarController id="vV9-iL-RvJ" sceneMemberID="viewController">
+                <tabBarController id="vV9-iL-RvJ" customClass="TabBarViewController" customModule="Finstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xye-ld-aUg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -133,6 +133,9 @@
                                                 <constraint firstAttribute="width" constant="50" id="Zcn-l7-cER"/>
                                             </constraints>
                                             <state key="normal" title="Button" image="Satya Nadella"/>
+                                            <connections>
+                                                <segue destination="Bnl-LM-cUd" kind="show" identifier="profileSegue" id="Tvo-La-T3I"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFX-Pt-Yy4">
                                             <rect key="frame" x="87" y="460" width="99" height="21"/>
@@ -173,9 +176,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="kPB-Xs-lmf"/>
-                    <connections>
-                        <segue destination="Bnl-LM-cUd" kind="show" id="rxe-4m-NQD"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lnN-Ua-Uq5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -184,7 +184,7 @@
         <!--Title-->
         <scene sceneID="YxR-VP-MfL">
             <objects>
-                <viewController id="Bnl-LM-cUd" sceneMemberID="viewController">
+                <viewController id="Bnl-LM-cUd" customClass="ProfileViewController" customModule="Finstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X94-3d-eft">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,7 +213,7 @@
         <!--Item-->
         <scene sceneID="YD9-D4-I6S">
             <objects>
-                <navigationController id="EA9-AF-uCD" sceneMemberID="viewController">
+                <navigationController id="EA9-AF-uCD" customClass="NavigationController" customModule="Finstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="XtA-oe-9Ly"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="f7I-gy-lEf">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
